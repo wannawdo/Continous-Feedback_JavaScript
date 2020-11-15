@@ -1,17 +1,17 @@
 # Aplicatie web acordarea de feedback continuu
 
 
-●	Care este principala nevoie/problema pe care o rezolva produsul vostru?
+- Care este principala nevoie/problema pe care o rezolva produsul vostru?
 
 O aplicatie web pentru acordarea de feedback continuu este necesara pentru a imbunatati calitatea muncii in cadrul unei universitati. Astfel, profesorii stiu in permanenta daca materia este inteleasa de studenti, daca maniera in care informatia este transmisa este eficienta, iar studentii au posibilitatea de a spune sincer daca au nevoie ca anumite informatii sa fie explicate inca o data sau mai in amanunt. 
 
-●	Carui tip de utilizatori se adreseaza produsul vostru?
+- Carui tip de utilizatori se adreseaza produsul vostru?
 Aplicatia este destinata uzului in cadrul unei universitati si va fi folosita preponderent de studenti si profesori. In cazul profesorilor, este necesara inregistrarea pe site pentru a primi permisiunile utilizarii produsului, iar in cazul studentilor, accesul se va face pe baza unui cod generat aleator de profesori. Se identifica doua tipuri de utilizatori:
--	Profesorii - utilizatori care au dreptul de a defini o activitate disponibila pe o perioada determinata de timp pentru introducerea feedback-ului de catre celalalt tip de utilizatori si care au dreptul de a vedea feedback-ul, fara a-l modifica, pe o perioada nedeterminata de timp.
--	Studentii - utilizatori care au accesul la o interfata pentru adaugarea feedback-ului. Acestia pot adauga oricate instante de feedback doresc.
+	1.Profesorii - utilizatori care au dreptul de a defini o activitate disponibila pe o perioada determinata de timp pentru introducerea feedback-ului de catre celalalt tip de utilizatori si care au dreptul de a vedea feedback-ul, fara a-l modifica, pe o perioada nedeterminata de timp.
+	2.Studentii - utilizatori care au accesul la o interfata pentru adaugarea feedback-ului. Acestia pot adauga oricate instante de feedback doresc.
 
 
-●	Ce alte produse similare exista in piata?
+- Ce alte produse similare exista in piata?
 	Unul dintre produsele similare cunoscute de catre studentii CSIE este platforma http://campus-virtual.ase.ro/Evaluare_ASE/index.asp. Prin intermediul acesteia, studentii isi pot exprima sincer parerea despre experienta cumulata in timpul unui semestru fata de profesorii de la cursuri si seminarii.
 
 Un alt produs similar pentru a oferi feedback profesorilor este https://alif.ro/facultatea-de-cibernetica-statistica-si-informatica-economica. Diferenta este ca acesta permite exprimarea feedback-ului o singura data pentru fiecare profesor.
