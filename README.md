@@ -29,6 +29,7 @@
 ### Interfete aplicatie
 
 ***mock-up-feedback-continuu.png***
+
 ***mock-up-final-complet.png***
 
 
