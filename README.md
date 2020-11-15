@@ -35,3 +35,6 @@
 
 ### Rest API
 
+***Componente identificate.docx***
+
+***mock-up-final-complet.png***
