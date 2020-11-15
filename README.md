@@ -28,13 +28,13 @@
 
 ### Interfete aplicatie
 
-***mock-up-feedback-continuu.png***
+	***mock-up-feedback-continuu.png***
 
-***mock-up-final-complet.png***
+	***mock-up-final-complet.png***
 
 
 ### Rest API
 
-***Componente identificate.docx***
+	***Componente identificate.docx***
 
-***mock-up-final-complet.png***
+	***mock-up-final-complet.png***
