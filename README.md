@@ -1,11 +1,11 @@
 # Aplicatie web acordarea de feedback continuu
 
 
-###### - Care este principala nevoie/problemă pe care o rezolvă produsul vostru?
+ - Care este principala nevoie/problemă pe care o rezolvă produsul vostru?
 
 	O aplica?ie web pentru acordarea de feedback continuu este necesară pentru a îmbunătă?i calitatea muncii în cadrul unei universită?i. Astfel, profesorii ?tiu în permanen?ă dacă materia este în?eleasă de studen?i, dacă maniera în care informa?ia este transmisă este eficientă, iar studen?ii au posibilitatea de a spune sincer dacă au nevoie ca anumite informa?ii să fie explicate încă o dată sau mai în amănunt. 
 
-###### - Cărui tip de utilizatori se adresează produsul vostru?
+ - Cărui tip de utilizatori se adresează produsul vostru?
 
 	Aplica?ia este destinată uzului în cadrul unei universită?i ?i va fi folosită preponderent de studen?i ?i profesori. În cazul profesorilor, este necesară înregistrarea pe site pentru a primi permisiunile utilizării produsului, iar în cazul studen?ilor, accesul se va face pe baza unui cod generat aleator de profesori. Se identifică doua tipuri de utilizatori:
 	
@@ -14,7 +14,7 @@
 	2. Studen?ii - utilizatori care au accesul la o interfa?ă pentru adăugarea feedback-ului. Ace?tia pot adăuga oricâte instan?e de feedback doresc.
 
 
-###### - Ce alte produse similare există în pia?ă?
+ - Ce alte produse similare există în pia?ă?
 
 	Unul dintre produsele similare cunoscute de către studen?ii CSIE este platforma http://campus-virtual.ase.ro/Evaluare_ASE/index.asp. Prin intermediul acesteia, studen?ii î?i pot exprima sincer părerea despre experien?a cumulată în timpul unui semestru fa?ă de profesorii de la cursuri ?i seminarii.
 
