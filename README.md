@@ -10,9 +10,9 @@
 
 	Aplicatia este destinata uzului in cadrul unei universitati si va fi folosita preponderent de studenti si profesori. In cazul profesorilor, este necesara inregistrarea pe site pentru a primi permisiunile utilizarii produsului, iar in cazul studentilor, accesul se va face pe baza unui cod generat aleator de profesori. Se identifica doua tipuri de utilizatori:
 	
-	1.Profesorii - utilizatori care au dreptul de a defini o activitate disponibila pe o perioada determinata de timp pentru introducerea feedback-ului de catre celalalt tip de utilizatori si care au dreptul de a vedea feedback-ul, fara a-l modifica, pe o perioada nedeterminata de timp.
+	1.**Profesorii** - utilizatori care au dreptul de a defini o activitate disponibila pe o perioada determinata de timp pentru introducerea feedback-ului de catre celalalt tip de utilizatori si care au dreptul de a vedea feedback-ul, fara a-l modifica, pe o perioada nedeterminata de timp.
 	
-	2.Studentii - utilizatori care au accesul la o interfata pentru adaugarea feedback-ului. Acestia pot adauga oricate instante de feedback doresc.
+	2.**Studentii** - utilizatori care au accesul la o interfata pentru adaugarea feedback-ului. Acestia pot adauga oricate instante de feedback doresc.
 
 
 - **Ce alte produse similare exista in piata?**
