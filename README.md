@@ -1,4 +1,4 @@
-#Aplicatie web acordarea de feedback continuu
+# Aplicatie web acordarea de feedback continuu
 
 
 ●	Care este principala nevoie/problema pe care o rezolva produsul vostru?
@@ -20,5 +20,5 @@ Un alt produs similar pentru a oferi feedback profesorilor este https://alif.ro/
 
 	O aplicatie folosita foarte des de catre majoritatea persoanelor ce are incorporat mecanismul de a oferi feedback continuu este chiar Waze. Utilizatorii pot oferi informatii suplimentare referitoare la traseul urmat, cum ar fi existenta impedimentelor in trafic.
 
-Un alt produs similar este Instabug, acesta fiind un instrument mobil de feedback in aplicatie, precum si un instrument de detectare a erorilor care ofera trei produse principale: raportarea erorilor, raportarea accidentelor si chatul in aplicatie. Acest instrument faciliteaza un proces de comunicare foarte lin intre utilizator si organizatie, deoarece toate comunicatiile sunt foarte directe. Unele caracteristici frumoase pe care le ofera Instabug includ adnotari de capturi de ecran, note vocale, inregistrare pe ecran, profiluri de utilizator, inregistrare in retea si integrari terta parte, cum ar fi Slack, JIRA si Trello.
+	Un alt produs similar este Instabug, acesta fiind un instrument mobil de feedback in aplicatie, precum si un instrument de detectare a erorilor care ofera trei produse principale: raportarea erorilor, raportarea accidentelor si chatul in aplicatie. Acest instrument faciliteaza un proces de comunicare foarte lin intre utilizator si organizatie, deoarece toate comunicatiile sunt foarte directe. Unele caracteristici frumoase pe care le ofera Instabug includ adnotari de capturi de ecran, note vocale, inregistrare pe ecran, profiluri de utilizator, inregistrare in retea si integrari terta parte, cum ar fi Slack, JIRA si Trello.
 
