@@ -1,4 +1,4 @@
-# Aplicatie web acordarea de feedback continuu
+# Aplicatie web pentru acordarea de feedback continuu
 
 ### Introducere
 
