@@ -109,7 +109,7 @@ class ReactionPage extends Component {
       );
     }
     return (
-      <div>
+      <div className="reactions-page">
         <p>Descriere activitate: {this.state.activity.description}</p>
         <p>Timp ramas: {this.millisToMinutesAndSeconds(this.state.activity)}</p>
 

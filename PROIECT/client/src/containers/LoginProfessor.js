@@ -99,7 +99,7 @@ class LoginProfessor extends Component {
     return (
       <div>
         {!this.state.isLogin ? (
-          <div>
+          <div className="div-register">
             <div className="row justify-content-center align-items-center">
               <label className="label1">First Name</label>
               <input
@@ -147,7 +147,7 @@ class LoginProfessor extends Component {
             </button>
           </div>
         ) : (
-          <div>
+          <div className="div-log-in">
             <div className="row justify-content-center align-items-center">
               <label>Email address</label>
               <input

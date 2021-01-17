@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import history from "../history";
-import { toast } from "react-toastify";
+
 
 import "../Style/activityForm.css";
 

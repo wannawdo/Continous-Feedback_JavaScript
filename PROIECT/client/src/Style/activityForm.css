@@ -59,6 +59,7 @@ div.pag1 {
   box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.35);
   border-radius: 10px;
   border: 6px solid #17a2b8;
+  margin-top:10%
 }
 #buton1,
 #buton2 {
@@ -71,3 +72,32 @@ div.pag1 {
   border-radius: 10px;
   border: 6px solid #17a2b8;
 }
+
+
+div.div-log-in{
+  margin-top: 200px;
+}
+div.div-register{
+  margin-top: 150px;
+}
+
+h3.text-center{
+  color: #17a2b8;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+div.add-activity{
+  margin-top: 6%;
+}
+
+
+img.button{
+  margin-left: 3%;
+  margin-right: 3%;
+  margin-top: 3%;
+}
+
+div.reactions-page{
+  margin-top: 6%;
+}
+

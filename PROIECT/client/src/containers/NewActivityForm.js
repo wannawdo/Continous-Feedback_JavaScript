@@ -12,8 +12,11 @@ class NewActivityForm extends Component {
       subject: "Tehnologii Web",
       subjectList: [
         { id: 0, name: "Tehnologii Web" },
-        { id: 1, name: "Poo" },
-        { id: 2, name: "Bazele Statisticii" },
+        { id: 1, name: "Retele de calculatoare" },
+        { id: 2, name: "Multimedia" },
+        { id: 3, name: "Dispozitive si aplicatii mobile" },
+        { id: 4, name: "Analiza datelor" },
+        { id: 5, name: "Econometrie" },
       ],
       description: "Curs",
       duration: 1,
@@ -86,7 +89,7 @@ class NewActivityForm extends Component {
 
   render() {
     return (
-      <div>
+      <div className="add-activity">
         <br />
         <p>Introduceti o activitate noua:</p>
 

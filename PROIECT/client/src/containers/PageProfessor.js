@@ -79,7 +79,7 @@ class PageProfessor extends Component {
   render() {
     return (
       <div className="column justify-content-center align-items-center mt-3">
-        <h5 className="text-center">Activitati</h5>
+        <h3 className="text-center">Activitati</h3>
         <div className="row justify-content-between">
           <button onClick={this.goAddActivity} className="btn btn-info">
             Adauga activitate
@@ -95,6 +95,7 @@ class PageProfessor extends Component {
             <p>Cod: {el.accessCode} </p>
             <p>Status: {el.status}</p>
             <p>Descriere: {el.description}</p>
+            
             <div className="row justify-content-around">
               <div className="column justify-content-center">
                 <img
