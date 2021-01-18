@@ -29,6 +29,8 @@ class PageProfessor extends Component {
         accessCode: item.accessCode,
         status: item.status == 0 ? "Inactiv" : "Activ",
         description: item.description,
+        createdAt: item.createdAt,
+        reactions: item.reactions,
         goodReactions: item.reactions.filter((el) => el.emoticon === 0).length,
         badReactions: item.reactions.filter((el) => el.emoticon === 1).length,
         neutralReactions: item.reactions.filter((el) => el.emoticon === 2)
@@ -79,7 +81,7 @@ class PageProfessor extends Component {
   render() {
     return (
       <div className="column justify-content-center align-items-center mt-3">
-        <h3 className="text-center">Activitati</h3>
+        <h5 className="text-center">Activitati</h5>
         <div className="row justify-content-between">
           <button onClick={this.goAddActivity} className="btn btn-info">
             Adauga activitate
@@ -91,11 +93,10 @@ class PageProfessor extends Component {
         </div>
 
         {this.state.activities.map((el) => (
-          <div key={el.accessCode} className="activity">
+          <div key={el.accessCode} className="activity column">
             <p>Cod: {el.accessCode} </p>
             <p>Status: {el.status}</p>
-            <p>Descriere: {el.description}</p>
-            
+            <p>Descriere: {el.description}</p>{" "}
             <div className="row justify-content-around">
               <div className="column justify-content-center">
                 <img
@@ -107,7 +108,6 @@ class PageProfessor extends Component {
                 />
                 <p>{el.goodReactions} reactii</p>
               </div>
-
               <div>
                 <img
                   src="img/bad.jpg"
@@ -137,6 +137,97 @@ class PageProfessor extends Component {
                   height="50px"
                 />
                 <p>{el.neutralReactions} reactii</p>
+              </div>
+              <div className="column scroll-area ">
+                {el.reactions.map((reaction, index) => {
+                  // eslint-disable-next-line default-case
+                  switch (reaction.emoticon) {
+                    case 0:
+                      return (
+                        <div className="row justify-content-start align-self-center">
+                          <p className="start">{index + 1} .</p>
+                          <img
+                            src="img/good.jpg"
+                            alt="good"
+                            name="confused_face"
+                            width="50px"
+                            height="50px"
+                          />
+
+                          <p>
+                            at{" "}
+                            {new Date(reaction.createdAt).toLocaleString(
+                              "ro-RO"
+                            )}
+                            .
+                          </p>
+                        </div>
+                      );
+                    case 1:
+                      return (
+                        <div className="row justify-content-start">
+                          <p className="start">{index + 1} .</p>
+                          <img
+                            src="img/bad.jpg"
+                            alt="bad"
+                            name="confused_face"
+                            width="50px"
+                            height="50px"
+                          />
+
+                          <p>
+                            at{" "}
+                            {new Date(reaction.createdAt).toLocaleString(
+                              "ro-RO"
+                            )}
+                            .
+                          </p>
+                        </div>
+                      );
+                    case 2:
+                      return (
+                        <div className="row justify-content-start">
+                          <p className="start">{index + 1} .</p>
+                          <img
+                            src="img/indecisive.jpg"
+                            alt="indecisive"
+                            name="confused_face"
+                            width="50px"
+                            height="50px"
+                          />
+
+                          <p>
+                            at{" "}
+                            {new Date(reaction.createdAt).toLocaleString(
+                              "ro-RO"
+                            )}
+                            .
+                          </p>
+                        </div>
+                      );
+                    case 3:
+                      return (
+                        <div className="row justify-content-start">
+                          <p className="start">{index + 1} .</p>
+                          <img
+                            src="img/surprised.jpg"
+                            alt="surprised"
+                            name="confused_face"
+                            width="50px"
+                            height="50px"
+                          />
+
+                          <p>
+                            at{" "}
+                            {new Date(reaction.createdAt).toLocaleString(
+                              "ro-RO"
+                            )}
+                            .
+                          </p>
+                        </div>
+                      );
+                  }
+                })}
               </div>
             </div>
           </div>

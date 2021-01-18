@@ -32,3 +32,20 @@ code {
   border-radius: 15px;
   box-shadow: 0 9px #999;
 }
+.scroll-area {
+  width: 92%;
+  overflow-x: hidden;
+  height: 200px;
+  margin-top: 10px;
+  list-style-type: none;
+  float: left;
+  overflow-y: scroll;
+}
+
+.start {
+  margin-left: 80px;
+  margin-right: 30px;
+}
+.row.justify-content-start p {
+  margin-left: 30px;
+}
